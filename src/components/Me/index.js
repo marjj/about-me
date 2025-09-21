@@ -1,4 +1,4 @@
-import "./me.css";
+import "./index.css";
 
 function Developer() {
   return (
