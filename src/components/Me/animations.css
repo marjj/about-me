@@ -44,15 +44,15 @@
 }
 
 @keyframes earUp {
-    0% { top: 46px; height: 30px; }
-    50% { top: 44px; height: 24px; }
-    100% { top: 44px; height: 24px; }
+    0% { top: 46px; height: 24px; }
+    50% { top: 44px; height: 20px; }
+    100% { top: 44px; height: 20px; }
 }
 
 @keyframes earDown {
-    0% { top: 44px; height: 24px; }
-    50% { top: 46px; height: 30px; }
-    100% { top: 46px; height: 30px; }
+    0% { top: 44px; height: 20px; }
+    50% { top: 46px; height: 24px; }
+    100% { top: 46px; height: 24px; }
 }
 
 @keyframes bangsMoveDown {

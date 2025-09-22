@@ -4,6 +4,9 @@
     height: 180px;
     position: absolute;
     margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hair {
@@ -35,12 +38,12 @@
 .face::before, .face::after {
     background: var(--skin-color);
     content: '';
-    width: 40px;
-    height: 30px;
+    width: 32px;
+    height: 24px;
     display: block;
     border-radius: 16px;
     position: absolute;
-    left: -16px;
+    left: -11px;
     top: 46px;
     z-index: -1;
     transform-origin: center;
