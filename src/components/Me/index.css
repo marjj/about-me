@@ -12,8 +12,9 @@
 
 .hair {
     position: relative;
-    width: 120px;
-    height: 110px;
+    width: 112px;
+    height: 108px;
+    left: 4px;
     background: var(--hair-color);
     border-radius: 60px 60px 20px 20px;
     z-index: 0;
@@ -24,12 +25,12 @@
 
 .face {
     background: var(--skin-color);
-    width: 100px;
+    width: 80px;
     height: 100px;
     border-radius: 100px;
     position: relative;
     z-index: 1;
-    left: 10px;
+    left: 20px;
     top: -90px;
     animation:
         headMove 1s ease-in-out 0s 1 forwards,
@@ -55,7 +56,7 @@
 }
 
 .face::after {
-    left: 76px;
+    left: 60px;
 }
 .blush::before, .blush::after {
     content: '';
@@ -65,19 +66,19 @@
     background: var(--blush-color);
     border-radius: 20px;
     top: 76px;
-    left: 12px;
+    left: 10px;
     animation: blushShow 1s ease-in-out 5s 1 forwards;
     opacity: 0;
 }
 .blush::after {
     left: auto;
-    right: 12px;
+    right: 5px;
 }
 .eye, .eye-2 {
     position: absolute;
     height: 20px;
     top: 50px;
-    left: 28px;
+    left: 20px;
     width: 8px;
     background-color: black;
     border-radius: 10px;
@@ -92,7 +93,7 @@
 }
 
 .eye-2 {
-    left: 64px;
+    left: 54px;
     animation:
         eyeMoveY 1s ease-in-out 0s 1 forwards,
         eyeMoveX2 1s ease-in-out 1s 3 forwards,
@@ -138,12 +139,12 @@
 .bangs-left::before {
     content: '';
     background: var(--hair-color);
-    left: -52px;
-    width: 75px;
-    height: 56px;
+    left: -38px;
+    width: 62px;
+    height: 52px;
     position: absolute;
     border-radius: 40px 0px 40px 10px;
-    top: 10px;
+    top: 12px;
     animation:
         bangsMoveDown 1s ease-in-out 0s 1 forwards,
         bangsMoveUp 1s ease-in-out 4s 1 forwards
@@ -153,10 +154,10 @@
 .bangs-left::after {
     content: '';
     position: absolute;
-    width: 26px;
+    width: 20px;
     height: 96px;
     top: 36px;
-    left: -56px;
+    left: -42px;
     border-radius: 20px 0 0px 20px;
     background-color: var(--hair-color);
     transform-origin: center;
@@ -174,7 +175,7 @@
     background: var(--hair-color);
     border-radius: 0px 40px 0px 40px;
     top: 14px;
-    left: 19px;
+    left: 10px;
     z-index: 2;
     transform-origin: center;
     animation:
@@ -241,12 +242,12 @@
 .laptop::before {
     content: '';
     position: absolute;
-    width: 90px;
-    height: 60px;
+    width: 80px;
+    height: 50px;
     background: var(--laptop-color-2);
     border-radius: 8px;
-    top: -50px;
-    left: -20%;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    top: -40px;
+    left: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 2;
 }
