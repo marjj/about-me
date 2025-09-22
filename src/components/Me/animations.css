@@ -16,15 +16,15 @@
 }
 
 @keyframes eyeMoveX {
-    0% { top: 70px; left: 28px; }
-    20% { top: 70px;  left: 20px}
-    100% {  top: 70px; left: 28px}
+    0% { top: 70px; left: 20px; }
+    20% { top: 70px;  left: 14px}
+    100% {  top: 70px; left: 20px}
 }
 
 @keyframes eyeMoveX2 {
-    0% { top: 70px; left: 64px }
-    20% { top: 70px;  left: 56px}
-    100% {  top: 70px; left: 64px}
+    0% { top: 70px; left: 54px }
+    20% { top: 70px;  left: 48px}
+    100% {  top: 70px; left: 54px}
 }
 
 @keyframes eyeUp {
@@ -56,15 +56,15 @@
 }
 
 @keyframes bangsMoveDown {
-    0% { height: 56px; }
-    50% { height: 78px }
-    100% { height: 78px; }
+    0% { height: 52px; }
+    50% { height: 72px }
+    100% { height: 72px; }
 }
 
 @keyframes bangsMoveUp {
-    0% { height: 78px; }
-    50% { height: 56px }
-    100% { height: 56px; }
+    0% { height: 72px; }
+    50% { height: 52px }
+    100% { height: 52px; }
 }
 
 @keyframes bangsRightHeight {
