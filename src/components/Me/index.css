@@ -16,7 +16,7 @@
     height: 108px;
     left: 4px;
     background: var(--hair-color);
-    border-radius: 60px 60px 20px 20px;
+    border-radius: 60px 60px 25px 25px;
     z-index: 0;
     animation: hairUp 1s ease-in-out 0s 1 forwards,
         hairDown 1s ease-in-out 4s 1 forwards
@@ -30,7 +30,7 @@
     border-radius: 100px;
     position: relative;
     z-index: 1;
-    left: 20px;
+    left: 16px;
     top: -90px;
     animation:
         headMove 1s ease-in-out 0s 1 forwards,
@@ -107,9 +107,8 @@
     position: absolute;
     width: 24px;
     height: 16px;
-    background: white;
-    top: 10px;
-    background: #36436e;
+    bottom: -10px;
+    background: #222d4e;
     left: 0;
     transform: rotate(-15deg);
 }
@@ -118,8 +117,8 @@
     content: '';
     position: absolute;
     width: 25px;
-    height: 60px;
-    background: var(--hair-color);
+    height: 40px;
+    background: var(--hair-color-2);
     border-radius: 0px 50px 0px 50px;
     top: 100px;
     right: 15px;
@@ -127,6 +126,11 @@
         ponytailUp 1s ease-in-out 0s 1 forwards,
         ponytailDown 1s ease-in-out 4s 1 forwards
         ;
+
+    /* bun */
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
 }
 .bangs {
     position: relative;
@@ -139,9 +143,8 @@
 .bangs-left::before {
     content: '';
     background: var(--hair-color);
-    left: -38px;
-    width: 62px;
-    height: 52px;
+    left: -42px;
+    width: 65px;
     position: absolute;
     border-radius: 40px 0px 40px 10px;
     top: 12px;
@@ -157,7 +160,7 @@
     width: 20px;
     height: 96px;
     top: 36px;
-    left: -42px;
+    left: -46px;
     border-radius: 20px 0 0px 20px;
     background-color: var(--hair-color);
     transform-origin: center;
@@ -175,7 +178,7 @@
     background: var(--hair-color);
     border-radius: 0px 40px 0px 40px;
     top: 14px;
-    left: 10px;
+    left: 8px;
     z-index: 2;
     transform-origin: center;
     animation:
