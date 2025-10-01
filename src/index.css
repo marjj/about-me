@@ -6,11 +6,20 @@
 :root {
     --hair-color: #222d4e;
     --hair-color-2: #1c2748;
-    --skin-color: #ffe2d4;
+    /* --skin-color: #ffe2d4; */
     --shirt-color: #f34594;
     --laptop-color: #9999b9;
     --laptop-color-2: #bcbcd4;
+    --shirt-color: #f34594;
     --blush-color: #ff9cc9;
+
+    --skin-color: #ffe7e7;
+    /* --hair-color: #253c50; */
+    /* --hair-color-2: #1c2748; */
+    /* --shirt-color: #268dab; */
+    /* --laptop-color: #bccbd4; */
+    /* --laptop-color-2: #99a9b9; */
+
 
     --base-face-width: 100px;
     --base-face-height: 100px;
@@ -23,7 +32,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0f131c;
+  background-color: #fff;
 }
 
 code {
