@@ -8,6 +8,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: max-content;
+    /* transform: scale(1.2); */
+    /* transform-origin: center; */
 }
 
 .hair {
@@ -80,7 +82,7 @@
     top: 50px;
     left: 20px;
     width: 8px;
-    background-color: black;
+    background-color: var(--hair-color);
     border-radius: 10px;
     transform-origin: center;
     animation:
@@ -186,6 +188,7 @@
         bangsRightHeightUp 1s ease-in-out 4s 1 forwards
         ;
 }
+
 
 .body {
     position: absolute;
